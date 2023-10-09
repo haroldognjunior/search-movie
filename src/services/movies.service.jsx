@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Base URL for the movies API
-const moviesDb = process.env.moviesDb;
+const moviesDb = process.env.REACT_APP_MOVIESDB;
 
 // Function to fetch the most popular movies
 export const getMostPopular = () => {
