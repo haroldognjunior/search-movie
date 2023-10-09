@@ -1,0 +1,32 @@
+/* Styles for the search container */
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+/* Styles for the search input field */
+.searchTerm {
+  margin-top: 10px;
+  width: 100%;
+  border: 2px solid red;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px; /* Rounded corners */
+  outline: none;
+  color: #9dbfaf; /* Text color */
+}
+
+/* Styles for the search input field when focused */
+.searchTerm:focus {
+  color: red; /* Change text color on focus */
+}
+
+/* Resize the wrap to see the search bar change! */
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

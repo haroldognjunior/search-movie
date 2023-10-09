@@ -1,0 +1,72 @@
+// Styles for the movie details card
+.movie-details-card {
+  width: 280px;
+  height: 100%;
+  display: inline;
+  margin: 60px auto;
+  background-color: #ddd;
+  transition: 0.55s; // Transition effect
+}
+
+// Styles for the header of the movie details card
+.movie-details-card-header {
+  margin-top: 50px;
+  height: 455px;
+  padding: 15px;
+  background-size: cover;
+  @media only screen and (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+// Styles for the title inside the movie details card body
+.movie-details-card-body--title {
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+
+// Styles for the body of the movie details card
+.movie-details-card-body {
+  padding: 15px;
+  background-color: #ddd;
+  height: 75%;
+  @media only screen and (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+// Styles for the date element
+.date {
+  font-size: 11px;
+  font-weight: 600;
+  color: grey;
+}
+
+// Styles for the content inside the movie details card body
+.movie-details-card-body-content {
+  padding: 40px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.movie-details-card-body-rating {
+  svg {
+    width: 10px;
+    @media only screen and (min-width: 768px) {
+      width: 40px;
+    }
+  }
+}
+
+// Styles for the primary button inside the movie details card
+.movie-details-card-button-primary {
+  border: none;
+  box-shadow: none;
+  font-family: inherit;
+  background-color: transparent;
+  color: red;
+  font-size: 15px;
+  transition: 0.25s; // Transition effect
+  cursor: pointer;
+}

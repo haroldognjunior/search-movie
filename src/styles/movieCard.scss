@@ -1,0 +1,72 @@
+// Global styles for the entire document
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+}
+
+// Styles for the card element
+.card {
+  width: 280px;
+  display: block;
+  margin: 60px auto;
+  transition: 0.55s; // Transition effect
+}
+
+// Styles for the card on hover
+.card:hover {
+  box-shadow: 5px 15px 15px 5px #545454; // Box shadow on hover
+  cursor: pointer;
+  transform: translate(0px, -10px); // Move up on hover
+}
+
+// Styles for the header of the card
+.card-header {
+  height: 455px;
+  width: 100%;
+  padding: 15px;
+  background-size: cover;
+  color: #fff; // Text color
+}
+
+// Styles for the title inside the card body
+.card-body--title {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+// Styles for the body of the card
+.card-body {
+  padding: 15px;
+  background-color: #ddd;
+  height: 240px;
+  width: 100%;
+}
+
+// Styles for the date element
+.date {
+  font-size: 11px;
+  font-weight: 600;
+  color: grey;
+}
+
+// Styles for the content inside the card body
+.body-content {
+  padding-bottom: 40px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+// Styles for the primary button inside the card
+.button-primary {
+  border: none;
+  box-shadow: none;
+  font-family: inherit;
+  background-color: transparent;
+  color: #341cac; // Text color
+  font-size: 15px;
+  transition: 0.25s; // Transition effect
+}
+.button-primary i {
+  padding-right: 4px;
+}

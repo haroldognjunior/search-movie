@@ -1,0 +1,15 @@
+// Styles for the quick link element
+.quickLink {
+  color: white; // Text color
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 15px; // Left margin
+  font-weight: bold; // Text boldness
+}
+
+// Styles for the header element
+.header {
+  margin: 20px; // Margin around the header
+  svg {
+    margin-left: 20px;
+  }
+}
