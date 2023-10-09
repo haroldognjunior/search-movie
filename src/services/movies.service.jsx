@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Base URL for the movies API
-const moviesDb = "https://search-movie-api.onrender.com/movies";
+const moviesDb = process.env.moviesDb;
 
 // Function to fetch the most popular movies
 export const getMostPopular = () => {
